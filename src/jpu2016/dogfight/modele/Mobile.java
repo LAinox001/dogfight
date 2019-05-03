@@ -4,6 +4,7 @@ import java.awt.Color;
 import java.awt.Image;
 import java.awt.Point;
 
+//Mobile
 public class Mobile {
 
 	int speed;
