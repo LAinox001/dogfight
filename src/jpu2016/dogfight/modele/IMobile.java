@@ -1,5 +1,8 @@
 package jpu2016.dogfight.modele;
 
+import java.awt.Image;
+import java.awt.Point;
+
 public interface IMobile {
 	
 	public Direction getDirection();

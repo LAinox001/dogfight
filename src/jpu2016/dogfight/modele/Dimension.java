@@ -17,6 +17,7 @@ public class Dimension {
 	
 	public int getWidth()
 	{
+		return width;
 		
 	}
 	
@@ -27,6 +28,7 @@ public class Dimension {
 	
 	public int getHeight()
 	{
+		return height;
 		
 	}
 	

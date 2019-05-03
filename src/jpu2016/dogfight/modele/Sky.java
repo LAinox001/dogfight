@@ -1,5 +1,7 @@
 package jpu2016.dogfight.modele;
 
+import java.awt.Image;
+
 public class Sky {
 
 	public Sky(Dimension dimension)
@@ -9,11 +11,12 @@ public class Sky {
 	
 	public Dimension getDimension()
 	{
+		return null;
 		
 	}
 	
 	public Image getImage()
 	{
-		
+		return null;
 	}
 }

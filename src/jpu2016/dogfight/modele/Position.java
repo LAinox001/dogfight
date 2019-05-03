@@ -19,21 +19,25 @@ public class Position {
 	
 	public double getX()
 	{
+		return maxX;
 		
 	}
 	
 	public  double setX(double x)
 	{
+		return x;
 		
 	}
 	
 	public double getY()
 	{
+		return maxY;
 		
 	}
 	
 	public  double setY(double y) 
 	{
+		return y;
 		
 	}
 	
