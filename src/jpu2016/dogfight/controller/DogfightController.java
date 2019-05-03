@@ -3,6 +3,9 @@
  */
 package jpu2016.dogfight.controller;
 
+import jpu2016.dogfight.modele.IDogfightModel;
+import jpu2016.dogfight.modele.IMobile;
+
 /**
  * @author lanto
  *
@@ -16,7 +19,8 @@ public class DogfightController implements IOrderPerformer {
 	}
 	
 	public void play() {
-		
+		/*gameLoop();
+		*/
 	}
 	
 	public void setViewSystem(IViewSystem viewSystem) {
@@ -24,17 +28,17 @@ public class DogfightController implements IOrderPerformer {
 	}
 	
 	private void lauchMissile(int player) {
-		int xPlane;
+		/*int xPlane;
 		int yPlane;
 		xPlane = player.getPosition().getX();
 		yPlane = player.getPosition().getY();
 		Position position = new Position(xPlane + 10, yPlane, 10000, 10000);
 		Dimension dimension = new Dimension(30, 10);
-		Mobile missile = new Missile(player.getDirection(), position, dimension, 4, "missile");
+		Mobile missile = new Missile(player.getDirection(), position, dimension, 4, "missile");*/
 	}
 	
 	private boolean isWeaponOnMobile(final IMobile mobile, final IMobile weapon) {
-		if (((weapon.getPosition().getX() / weapon.getWidth()) >= (mobile.getPosition().getX() /
+		/*if (((weapon.getPosition().getX() / weapon.getWidth()) >= (mobile.getPosition().getX() /
 				weapon.getWidth()))
 				&& ((weapon.getPosition().getX() / weapon.getWidth()) <=
 				((mobile.getPosition().getX() + mobile.getWidth()) / weapon.getWidth()))) {
@@ -44,17 +48,21 @@ public class DogfightController implements IOrderPerformer {
 				return true;
 			}
 		}
-		return false;
+		return false;*/
+		return true;
 	} 
 	
 	private void manageCollision(){
-		if (isWeaponOnMobile(null, null) == true) {
+		/*if (isWeaponOnMobile(null, null) == true) {
 			
-		}
+		}*/
 	}
 	
 	private void gameLoop() {
-		
+		/*boolean bool = true;
+		while(bool) {
+			getMobile().move();
+		}*/
 	}
 	
 	@Override
