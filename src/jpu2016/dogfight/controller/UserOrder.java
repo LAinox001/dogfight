@@ -16,7 +16,7 @@ public class UserOrder implements IUserOrder {
 	}
 	
 	public Order getOrder() {
-		return new Order;
+		return order;
 	}
 	
 	public int getPlayer() {

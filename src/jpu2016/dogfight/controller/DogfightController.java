@@ -5,6 +5,7 @@ package jpu2016.dogfight.controller;
 
 import jpu2016.dogfight.modele.IDogfightModel;
 import jpu2016.dogfight.modele.IMobile;
+import jpu2016.dogfight.view.IViewSystem;
 
 /**
  * @author lanto
